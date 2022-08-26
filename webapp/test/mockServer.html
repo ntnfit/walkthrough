@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Walk throught</title>
+    <script
+		id="sap-ui-bootstrap"
+		src="../resources/sap-ui-core.js"
+		data-sap-ui-theme="sap_belize"
+		data-sap-ui-libs="sap.m"
+		data-sap-ui-resourceroots='{
+			"walkthrough": "../"
+		}'
+		data-sap-ui-oninit="module:walkthrough/test/initMockServer"
+        data-sap-ui-compatVersion="edge"
+        data-sap-ui-async="true"
+        data-sap-ui-frameOptions="trusted"
+    ></script>
+    <script id="locate-reuse-libs" src="walkthrough/utils/locate-reuse-libs.js"
+        data-sap-ui-manifest-uri="walkthrough/manifest.json"
+        data-sap-ui-componentName="walkthrough">
+    </script> 
+</head>
+<body class="sapUiBody" id="content">
+   
+    <div
+        data-sap-ui-component
+        data-name="walkthrough"
+        data-id="container"
+        data-settings='{"id" : "walkthrough"}'
+        data-handle-validation="true"
+    ></div>
+</body>
+</html>
